@@ -1,4 +1,4 @@
-package com.akurucz.bonjour
+package com.akurucz.bonjour.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.akurucz.bonjour.R
+import com.akurucz.bonjour.network.BonjourService
 import org.w3c.dom.Text
 
 class ServicesAdapter(private val onItemClicked: (BonjourService) -> Unit) :

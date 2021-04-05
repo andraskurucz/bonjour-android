@@ -1,4 +1,4 @@
-package com.akurucz.bonjour
+package com.akurucz.bonjour.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,6 +12,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.akurucz.bonjour.R
+import com.akurucz.bonjour.network.BonjourService
 
 class DiscoveryFragment : Fragment() {
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/DiscoveryFragment"
-        android:name="com.akurucz.bonjour.DiscoveryFragment"
+        android:name="com.akurucz.bonjour.ui.DiscoveryFragment"
         android:label="@string/discovery_fragment_label"
         tools:layout="@layout/fragment_discovery">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/DetailFragment"
-        android:name="com.akurucz.bonjour.ServiceDetailFragment"
+        android:name="com.akurucz.bonjour.ui.ServiceDetailFragment"
         android:label="@string/detail_fragment_label"
         tools:layout="@layout/fragment_service_detail">
     </fragment>
